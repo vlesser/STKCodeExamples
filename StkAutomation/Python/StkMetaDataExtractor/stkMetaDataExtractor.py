@@ -1,6 +1,6 @@
 # Get reference to running STK instance using win32com
 from win32com.client import GetActiveObject
-uiApplication = GetActiveObject('STK12.Application')
+uiApplication = GetActiveObject('STK11.Application')
 
 
 # Get our IAgStkObjectRoot interface
